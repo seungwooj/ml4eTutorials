@@ -2,7 +2,7 @@
 # Lab 2 : linear regression
 import tensorflow as tf
 
-# 1) Build graph using TF operations
+# 1) Build graph using TF operations (모델의 정 (모델의 실행 및 업데이트))
 
 # # X and Y data
 # x_train = [1, 2, 3]

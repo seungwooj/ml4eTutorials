@@ -1,7 +1,7 @@
 
 import tensorflow as tf
 
-#1. model 정의
+#1. model의 정의
 #give data
 x_data = [1,2,3]
 y_data = [1,2,3]
@@ -27,7 +27,7 @@ cost = tf.reduce_mean(tf.square(hypothesis - Y))
 optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.01)
 train = optimizer.minimize(cost)
 
-#2.model 실행
+#2.model의 실행
 #Launch the graph in a session and initialize global variables in the graph.
 sess = tf.Session()
 sess.run(tf.global_variables_initializer())
