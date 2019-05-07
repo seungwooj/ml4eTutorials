@@ -2,7 +2,7 @@
 import tensorflow as tf
 import matplotlib.pyplot as plt
 #1. model 정의
-#give data
+#give data   
 X = [1,2,3]
 Y = [1,2,3]
 #parameter선언
