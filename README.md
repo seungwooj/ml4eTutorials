@@ -1,2 +1,2 @@
 # ml4e_practice
-machine learning for everybody : practice using tensorflow with examples.
+machine learning for everybody : tensorflow tutorial codes
